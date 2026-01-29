@@ -14,6 +14,9 @@ importers:
 
   apps/api:
     dependencies:
+      '@repo/db':
+        specifier: workspace:*
+        version: link:../../packages/db
       drizzle-orm:
         specifier: ^0.45.1
         version: 0.45.1(@types/pg@8.16.0)(pg@8.17.2)
@@ -27,6 +30,9 @@ importers:
         specifier: ^4.3.6
         version: 4.3.6
     devDependencies:
+      '@repo/typescript-config':
+        specifier: workspace:*
+        version: link:../../packages/config/typescript
       '@types/express':
         specifier: ^5.0.6
         version: 5.0.6
