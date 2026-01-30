@@ -6,9 +6,12 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-
 node_modules
-dist
+
+# Build
+dist/
+build/
+.turbo/
 dist-ssr
 *.local
 
@@ -23,5 +26,9 @@ dist-ssr
 *.sln
 *.sw?
 
+# TypeScript
+*.tsbuildinfo
 
+# Environment variables
 *.env
+.env*.local
