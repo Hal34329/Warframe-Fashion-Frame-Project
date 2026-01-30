@@ -14,11 +14,12 @@
     "react-dom": "^19.2.0"
   },
   "devDependencies": {
-    "@types/node": "^24.10.1",
+    "@repo/typescript-config": "workspace:*",
+    "@tailwindcss/vite": "^4.1.18",
     "@types/react": "^19.2.5",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react-swc": "^4.2.2",
-    "vite": "^7.2.4",
-    "@repo/typescript-config": "workspace:*"
+    "tailwindcss": "^4.1.18",
+    "vite": "^7.2.4"
   }
 }
