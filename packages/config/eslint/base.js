@@ -4,7 +4,7 @@ import tseslint from "typescript-eslint";
 import stylistic from "@stylistic/eslint-plugin";
 import { defineConfig, globalIgnores } from 'eslint/config'
 
-export default baseConfig = defineConfig([
+const baseConfig = defineConfig([
     globalIgnores(['dist']),
     {
         files: ["**/*.{js,mjs,cjs,ts,mts,cts}"],
@@ -38,3 +38,5 @@ export default baseConfig = defineConfig([
         extends: [tseslint.configs.recommended],
     }
 ])
+
+export default baseConfig
