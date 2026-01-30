@@ -7,7 +7,7 @@ import { defineConfig, globalIgnores } from 'eslint/config'
 const baseConfig = defineConfig([
     globalIgnores(['dist']),
     {
-        files: ["**/*.{mjs,cjs,ts,mts,cts}"],
+        files: ["**/*.{mjs,cjs,ts,mts,cts,tsx}"],
         plugins: {
             js,
             "@stylistic": stylistic,
@@ -36,6 +36,12 @@ const baseConfig = defineConfig([
             "@stylistic/comma-dangle": ["warn", "always-multiline"],
         },
         extends: [tseslint.configs.recommended],
+    },
+    {
+        files: ['**/eslint.config.js', '**/vite.config.ts',],
+        rules: {
+            "@stylistic/indent": ["error", 2],
+        }
     }
 ])
 
