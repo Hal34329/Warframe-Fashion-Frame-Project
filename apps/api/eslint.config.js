@@ -1,10 +1,6 @@
 import baseConfig from "@repo/eslint-config/base.js";
 import { defineConfig } from "eslint/config";
 
-// export default [
-//     ...baseConfig,
-// ];
-
 export default defineConfig([{
     extends: [
       baseConfig,

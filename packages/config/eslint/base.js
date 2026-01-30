@@ -7,7 +7,7 @@ import { defineConfig, globalIgnores } from 'eslint/config'
 const baseConfig = defineConfig([
     globalIgnores(['dist']),
     {
-        files: ["**/*.{js,mjs,cjs,ts,mts,cts}"],
+        files: ["**/*.{mjs,cjs,ts,mts,cts}"],
         plugins: {
             js,
             "@stylistic": stylistic,
@@ -39,4 +39,4 @@ const baseConfig = defineConfig([
     }
 ])
 
-export default baseConfig
+export default baseConfig;
