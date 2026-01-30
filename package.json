@@ -9,6 +9,7 @@
     "lint": "turbo lint"
   },
   "devDependencies": {
+    "@types/node": "^25.0.10",
     "turbo": "^2.7.6"
   },
   "keywords": [],
