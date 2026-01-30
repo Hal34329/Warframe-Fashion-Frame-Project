@@ -1,5 +1,5 @@
-// import { baseConfig } from "@repo/eslint-config/base";
+import baseConfig from "@repo/eslint-config/base.js";
 
-// export default [
-//     ...baseConfig,
-// ];
+export default [
+    ...baseConfig,
+];
