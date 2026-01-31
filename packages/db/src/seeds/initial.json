@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Excalibur",
+        "isPrime": true,
+        "isGemini": true
+    },
+    {
+        "name": "Mag",
+        "isPrime": true,
+        "isGemini": true
+    },
+    {
+        "name": "Loki",
+        "isPrime": true,
+        "isGemini": false
+    }
+]
