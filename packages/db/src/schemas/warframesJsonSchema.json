@@ -1,0 +1,49 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Palettes Schema",
+    "type": "array",
+    "items": {
+        "oneOf": [
+            {
+                "$ref": "#/$defs/commentObject"
+            },
+            {
+                "$ref": "#/$defs/warframesObject"
+            }
+        ]
+    },
+    "$defs": {
+        "commentObject": {
+            "type": "object",
+            "properties": {
+                "_comment": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "_comment"
+            ],
+            "additionalProperties": false
+        },
+        "warframesObject": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "isPrime": {
+                    "type": "boolean"
+                },
+                "isGemini": {
+                    "type": "boolean"
+                }
+            },
+            "required": [
+                "name",
+                "isPrime",
+                "isGemini"
+            ],
+            "additionalProperties": false
+        }
+    }
+}
