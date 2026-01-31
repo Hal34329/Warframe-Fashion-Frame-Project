@@ -3,7 +3,7 @@ import { db } from "./index.js";
 import { warframes, palettes } from "./schemas/index.js";
 import warframeData from "./seeds/warframes.json" with { type: "json" };
 import paletteData from "./seeds/palettes.json" with { type:"json" };
-import { cleanSeedData, type NewPalette, type NewWarframe } from "./utils/seedUtils.js";
+import { cleanSeedData, type NewPalette, type NewWarframe } from "./utils/seedUtil.js";
 
 // Type Guard para borrar los "comentarios"
 // type NewWarframe = typeof warframes.$inferInsert;
