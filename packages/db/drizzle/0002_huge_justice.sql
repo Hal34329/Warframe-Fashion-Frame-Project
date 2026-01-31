@@ -1,0 +1,1 @@
+ALTER TABLE "palettes" ADD CONSTRAINT "palettes_name_unique" UNIQUE("name");

@@ -11,6 +11,6 @@ export type ColorPalette = Record<`color_${number}`, string>;
 
 export const palettes = pgTable("palettes", {
     id: serial("id").primaryKey(),
-    name: varchar("name", { length: 50 }).notNull(),
+    name: varchar("name", { length: 50 }).notNull().unique(),
     colors: jsonb("colors").$type<ColorPalette>().notNull(),
 });

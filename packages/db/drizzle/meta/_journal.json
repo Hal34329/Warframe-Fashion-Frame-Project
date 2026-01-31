@@ -15,6 +15,13 @@
       "when": 1769838442633,
       "tag": "0001_aromatic_stature",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1769839312787,
+      "tag": "0002_huge_justice",
+      "breakpoints": true
     }
   ]
 }
