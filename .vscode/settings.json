@@ -1,0 +1,15 @@
+{
+    "json.schemas": [
+        {
+            "fileMatch": [ "**/seeds/palettes.json" ],
+            "url": "./packages/db/src/schemas/palettesJsonSchema.json"
+        },
+        // {
+        //     "fileMatch": [
+        //         "**/seeds/initial.json",
+        //         "**/seeds/update*.json"
+        //     ],
+        //     "url": "./packages/db/src/schemas/warframesJsonSchema.json"
+        // }
+    ]
+}
