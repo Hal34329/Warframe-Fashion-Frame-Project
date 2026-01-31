@@ -1,6 +1,7 @@
 import { drizzle } from "drizzle-orm/node-postgres";
 import { Pool } from "pg";
-import * as schema from "./schema.js";
+// import * as schema from "./schema.js";
+import * as schema from "./schemas/index.js";
 // Nota: Agregarlos de nuevo cuando se corrija el error en versiones futuras de Drizzle-kit
 // import { fileURLToPath } from "node:url";
 // import path from "node:path";
