@@ -1,17 +1,12 @@
 [
-    {
-        "name": "Excalibur",
-        "isPrime": true,
-        "isGemini": true
-    },
-    {
-        "name": "Mag",
-        "isPrime": true,
-        "isGemini": true
-    },
-    {
-        "name": "Loki",
-        "isPrime": true,
-        "isGemini": false
-    }
+    { "name": "Excalibur", "isPrime": true, "isGemini": true },
+    { "name": "Mag", "isPrime": true, "isGemini": true },
+    { "name": "Loki", "isPrime": true, "isGemini": false },
+    { "name": "Volt", "isPrime": true, "isGemini": false },
+    { "name": "Rhino", "isPrime": true, "isGemini": false },
+    { "name": "Saryn", "isPrime": true, "isGemini": false },
+    { "name": "Mesa", "isPrime": true, "isGemini": false },
+    { "name": "Frost", "isPrime": true, "isGemini": false },
+    { "name": "Ash", "isPrime": true, "isGemini": false },
+    { "name": "Ember", "isPrime": true, "isGemini": false }
 ]

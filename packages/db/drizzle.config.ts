@@ -1,4 +1,5 @@
 import { defineConfig } from "drizzle-kit";
+// Nota: Agregarlos de nuevo cuando se corrija el error en versiones futuras de Drizzle-kit
 // import path from "node:path";
 // import { fileURLToPath } from "node:url";
 
