@@ -1,4 +1,4 @@
-import { useState } from "react"; // Error: React no debería estar en la API
+// import { useState } from "react"; // Error: React no debería estar en la API
 
 // 1. Error de Stylistic: Falta punto y coma, espacios extras, comillas dobles
 const saludo = "hola";
@@ -15,9 +15,9 @@ export function suma(a: number, b: unknown): number {
 
 // 4. Error de React Hooks (si usas el config de React): 
 // Llamar un hook fuera de un componente o de forma condicional
-if (saludo) {
-    const [data] = useState(null);
-}
+// if (saludo) {
+//     const [data] = useState(null);
+// }
 
 /* 5. Error de Base: Consola (si pusiste 'no-console': 'error')
 */
