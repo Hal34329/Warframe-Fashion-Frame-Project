@@ -55,11 +55,11 @@ const baseConfig = defineConfig([
       "react-refresh": reactRefresh,
     },
     languageOptions: {
-      globals: globals.browser, // Cambiamos a entorno navegador
+      globals: globals.browser,
       parser: tseslint.parser,
       parserOptions: {
         ecmaFeatures: {
-          jsx: true, // Habilita soporte para JSX
+          jsx: true,
         },
       },
     },
