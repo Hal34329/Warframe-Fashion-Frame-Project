@@ -1,15 +1,17 @@
 [
     { "_comment": "--- First batch: Starters ---" },
-    { "name": "Excalibur", "isPrime": true, "isGemini": true },
-    { "name": "Mag", "isPrime": true, "isGemini": true },
-    { "name": "Loki", "isPrime": true, "isGemini": false },
-    { "name": "Volt", "isPrime": true, "isGemini": false },
-    { "name": "Rhino", "isPrime": true, "isGemini": false },
+    { "id": 1, "name": "Excalibur", "isPrime": true, "isGemini": true },
+    { "id": 2, "name": "Mag", "isPrime": true, "isGemini": true },
+    { "id": 3, "name": "Loki", "isPrime": true, "isGemini": false },
+    { "id": 4, "name": "Volt", "isPrime": true, "isGemini": false },
+    { "id": 5, "name": "Rhino", "isPrime": true, "isGemini": false },
     { "_comment": "--- Second batch: Starters ---" },
-    { "name": "Saryn", "isPrime": true, "isGemini": false },
-    { "name": "Mesa", "isPrime": true, "isGemini": false },
-    { "name": "Frost", "isPrime": true, "isGemini": false },
-    { "name": "Ash", "isPrime": true, "isGemini": false },
-    { "name": "Dante", "isPrime": false, "isGemini": true},
-    { "name": "Ember", "isPrime": true, "isGemini": false }
+    { "id": 6, "name": "Saryn", "isPrime": true, "isGemini": false },
+    { "id": 7, "name": "Mesa", "isPrime": true, "isGemini": false },
+    { "id": 8, "name": "Frost", "isPrime": true, "isGemini": false },
+    { "id": 9, "name": "Ash", "isPrime": true, "isGemini": false },
+    { "id": 10, "name": "Dante", "isPrime": false, "isGemini": true },
+    { "id": 11, "name": "Ember", "isPrime": true, "isGemini": false },
+    { "id": 12, "name": "Voruna", "isPrime": false, "isGemini": false },
+    { "id": 15, "name": "Wisp", "isPrime": true, "isGemini": true }
 ]

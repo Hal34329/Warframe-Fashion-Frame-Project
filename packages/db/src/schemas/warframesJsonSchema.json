@@ -2,6 +2,7 @@
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "title": "Palettes Schema",
     "type": "array",
+    "uniqueItems": true,
     "items": {
         "oneOf": [
             {
@@ -28,21 +29,12 @@
         "warframesObject": {
             "type": "object",
             "properties": {
-                "name": {
-                    "type": "string"
-                },
-                "isPrime": {
-                    "type": "boolean"
-                },
-                "isGemini": {
-                    "type": "boolean"
-                }
+                "id": { "type": "integer", "minimum": 1 },
+                "name": { "type": "string" },
+                "isPrime": { "type": "boolean" },
+                "isGemini": { "type": "boolean" }
             },
-            "required": [
-                "name",
-                "isPrime",
-                "isGemini"
-            ],
+            "required": [ "id", "name", "isPrime", "isGemini" ],
             "additionalProperties": false
         }
     }

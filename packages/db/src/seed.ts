@@ -1,40 +1,11 @@
 import { db } from "./index.js";
-// import { warframes, palettes } from "./schema.js";
 import { warframes, palettes } from "./schemas/index.js";
 import warframeData from "./seeds/warframes.json" with { type: "json" };
 import paletteData from "./seeds/palettes.json" with { type:"json" };
 import { cleanSeedData, type NewPalette, type NewWarframe } from "./utils/seedUtil.js";
 
-// Type Guard para borrar los "comentarios"
-// type NewWarframe = typeof warframes.$inferInsert;
-// type NewPalette = typeof palettes.$inferInsert;
-
-// const isWarframe = (item: unknown): item is NewWarframe => {
-//     return (
-//         typeof item === "object" &&
-//         item !== null &&
-//         "name" in item &&
-//         typeof (item as Record<string, unknown>).name === "string"
-//     );
-// };
-
-// const isPalette = (item: unknown): item is NewPalette => {
-//     return (
-//         typeof item === "object" &&
-//         item !== null &&
-//         "name" in item &&
-//         "colors" in item &&
-//         typeof (item as Record<string, unknown>).name === "string"
-//     );
-// };
-// Fin del primer bloque de Type Guard
-
 async function main(): Promise<void> {
     console.log("Sembrando datos iniciales...");
-
-    // Parte del Type Guard
-    // const cleanData = (warframeData as unknown[]).filter(isWarframe);
-    // const cleanPalettes = (paletteData as unknown[]).filter(isPalette);
 
     const cleanWarframes = cleanSeedData<NewWarframe>(warframeData as unknown[]);
     const cleanPalettes = cleanSeedData<NewPalette>(paletteData as unknown[]);
@@ -43,7 +14,6 @@ async function main(): Promise<void> {
         console.log("No hay datos válidos para insertar");
         return;
     }
-    // Fin del segundo bloque del Type Guard
 
     for (const palette of cleanPalettes) {
         const { colors, name } = palette;
@@ -61,7 +31,7 @@ async function main(): Promise<void> {
         .onConflictDoNothing();
 
     await db.insert(warframes)
-        .values(cleanWarframes) // Pasar de warframeData a cleanData
+        .values(cleanWarframes)
         .onConflictDoNothing();
 
     console.log("Semillas plantadas con éxito");
