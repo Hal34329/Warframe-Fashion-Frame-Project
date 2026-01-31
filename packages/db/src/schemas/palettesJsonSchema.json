@@ -1,0 +1,49 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Palettes Schema",
+    "type": "array",
+    "items": {
+        "oneOf": [
+            { "$ref": "#/$defs/commentObject" },
+            { "$ref": "#/$defs/paletteObject" }
+        ]
+    },
+    "$defs": {
+        "hexColor": {
+            "type": "string",
+            "pattern": "^#[a-fA-F0-9]{6}$"
+        },
+        "commentObject": {
+            "type": "object",
+            "properties": {
+                "_comment": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "_comment"
+            ],
+            "additionalProperties": false
+        },
+        "paletteObject": {
+            "type": "object",
+            "properties": {
+                "name": { "type": "string" },
+                "colors": {
+                    "type": "object",
+                    "minProperties": 50,
+                    "maxProperties": 50,
+                    "patternProperties": {
+                        "^color_([1-9]|[1-4][0-9]|50)$": {
+                            "type": "string",
+                            "$ref": "#/$defs/hexColor"
+                        }
+                    },
+                    "additionalProperties": false
+                }
+            },
+            "required": [ "name", "colors" ],
+            "additionalProperties": false
+        }
+    }
+}
