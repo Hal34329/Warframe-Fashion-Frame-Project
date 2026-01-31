@@ -7,6 +7,10 @@
     ".": "./src/index.ts",
     "./schema": "./src/schema.ts"
   },
+  "scripts": {
+    "generate": "drizzle-kit generate",
+    "migrate": "drizzle-kit migrate"
+  },
   "dependencies": {
     "drizzle-orm": "^0.45.1",
     "drizzle-zod": "^0.8.3",
