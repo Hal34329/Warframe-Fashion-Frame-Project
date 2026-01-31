@@ -3,7 +3,7 @@ import { warframes, palettes, attachments } from "./schemas/index.js";
 import warframeData from "./seeds/warframes.json" with { type: "json" };
 import paletteData from "./seeds/palettes.json" with { type:"json" };
 import attachmentData from "./seeds/attachments.json" with { type:"json" };
-import { cleanSeedData, type NewPalette, type NewWarframe } from "./utils/seedUtil.js";
+import { cleanSeedData, type NewPalette, type NewWarframe, type NewAttachment } from "./utils/seedUtil.js";
 
 async function main(): Promise<void> {
     console.log("Sembrando datos iniciales...");
@@ -34,6 +34,10 @@ async function main(): Promise<void> {
 
     await db.insert(warframes)
         .values(cleanWarframes)
+        .onConflictDoNothing();
+
+    await db.insert(attachments)
+        .values(clearAttachments)
         .onConflictDoNothing();
 
     console.log("Semillas plantadas con éxito");

@@ -33,12 +33,66 @@
                 "name": { "type": "string" },
                 "slot": { "type": "string" }
             },
-            "required": [
-                "id",
-                "name",
-                "slot"
-            ],
-            "additionalProperties": false
+            "required": [ "id", "name", "slot" ],
+            "additionalProperties": false,
+            "oneOf": [
+                {
+                    "description": "Chest",
+                    "properties": {
+                        "id": { "minimum": 1000, "maximum": 1999 },
+                        "slot": { "const": "chest" }
+                    }
+                },
+                {
+                    "description": "Left Arm",
+                    "properties": {
+                        "id": { "minimum": 2000, "maximum": 2999 },
+                        "slot": { "const":"left_arm" }
+                    }
+                },
+                {
+                    "description": "Right Arm",
+                    "properties": {
+                        "id": { "minimum": 3000, "maximum": 3999 },
+                        "slot": { "const": "right_arm" }
+                    }
+                },
+                {
+                    "description": "Left Leg",
+                    "properties": {
+                        "id": { "minimum": 4000, "maximum": 4999 },
+                        "slot": { "const": "left_leg" }
+                    }
+                },
+                {
+                    "description": "Right Leg",
+                    "properties": {
+                        "id": { "minimum": 5000, "maximum": 5999 },
+                        "slot": { "const": "right_leg" }
+                    }
+                },
+                {
+                    "description": "Auxiliary",
+                    "properties": {
+                        "id": { "minimum": 6000, "maximum": 6999 },
+                        "slot": { "const": "auxiliary" }
+                    }
+                },
+                {
+                    "description": "Ephemera",
+                    "properties": {
+                        "id": { "minimum": 7000, "maximum": 7999 },
+                        "slot": { "const": "ephemera" }
+                    }
+                },
+                {
+                    "description": "Signa",
+                    "properties": {
+                        "id": { "minimum": 8000, "maximum": 8999 },
+                        "slot": { "const": "signa" }
+                    }
+                }
+            ]
         }
     }
 }

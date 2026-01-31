@@ -8,5 +8,12 @@
             "fileMatch": [ "**/seeds/warframes.json" ],
             "url": "./packages/db/src/schemas/warframesJsonSchema.json"
         }
+        ,
+        {
+            "fileMatch": [
+                "**/seeds/attachments.json"
+            ],
+            "url": "./packages/db/src/schemas/attachmentsJsonSchema.json"
+        }
     ]
 }
