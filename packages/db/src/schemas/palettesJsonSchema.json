@@ -2,6 +2,7 @@
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "title": "Palettes Schema",
     "type": "array",
+    "uniqueItems": true,
     "items": {
         "oneOf": [
             { "$ref": "#/$defs/commentObject" },
@@ -28,6 +29,7 @@
         "paletteObject": {
             "type": "object",
             "properties": {
+                "id": { "type": "integer", "minimum": 1 },
                 "name": { "type": "string" },
                 "colors": {
                     "type": "object",
@@ -42,7 +44,7 @@
                     "additionalProperties": false
                 }
             },
-            "required": [ "name", "colors" ],
+            "required": [ "id", "name", "colors" ],
             "additionalProperties": false
         }
     }

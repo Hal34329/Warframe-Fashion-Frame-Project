@@ -1,6 +1,7 @@
 [
     { "_comment": "--- First batch ---" },
     {
+        "id": 1,
         "name": "Classic Saturated (Mock)",
         "colors": {
             "color_1": "#FE0000", "color_2": "#FD0000", "color_3": "#FB0000", "color_4": "#F90000", "color_5": "#F70000", 
@@ -16,6 +17,7 @@
         }
     },
     {
+        "id": 2,
         "name": "Not",
         "colors": {
             "color_1": "#FE0000",
