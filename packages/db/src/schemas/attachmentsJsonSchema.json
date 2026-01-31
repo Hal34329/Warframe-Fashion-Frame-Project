@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "title": "Warframes Schema",
+    "title": "Attachments Schema",
     "type": "array",
     "uniqueItems": true,
     "items": {
@@ -9,32 +9,35 @@
                 "$ref": "#/$defs/commentObject"
             },
             {
-                "$ref": "#/$defs/warframesObject"
+                "$ref": "#/$defs/attachmentObject"
             }
         ]
     },
     "$defs": {
+        "hexColor": {
+            "type": "string",
+            "pattern": "^#[a-fA-F0-9]{6}$"
+        },
         "commentObject": {
             "type": "object",
             "properties": {
-                "_comment": {
-                    "type": "string"
-                }
+                "_comment": { "type": "string" }
             },
-            "required": [
-                "_comment"
-            ],
+            "required": [ "_comment" ],
             "additionalProperties": false
         },
-        "warframesObject": {
+        "attachmentObject": {
             "type": "object",
             "properties": {
                 "id": { "type": "integer", "minimum": 1 },
                 "name": { "type": "string" },
-                "isPrime": { "type": "boolean" },
-                "isGemini": { "type": "boolean" }
+                "slot": { "type": "string" }
             },
-            "required": [ "id", "name", "isPrime", "isGemini" ],
+            "required": [
+                "id",
+                "name",
+                "slot"
+            ],
             "additionalProperties": false
         }
     }

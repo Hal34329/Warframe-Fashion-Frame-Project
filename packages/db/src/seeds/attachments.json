@@ -1,0 +1,4 @@
+[
+    { "_comment": "Hello there" },
+    { "id": 1, "name": "Hi", "slot": "LeftShoulder" }
+]
