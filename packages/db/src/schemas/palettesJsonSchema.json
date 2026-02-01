@@ -33,7 +33,6 @@
                 "name": { "type": "string" },
                 "colors": {
                     "type": "object",
-                    "$ref": "vscode://schemas/token-styling",
                     "minProperties": 90,
                     "maxProperties": 90,
                     "patternProperties": {
