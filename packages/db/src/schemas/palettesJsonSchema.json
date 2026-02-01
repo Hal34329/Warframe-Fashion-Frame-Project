@@ -33,10 +33,10 @@
                 "name": { "type": "string" },
                 "colors": {
                     "type": "object",
-                    "minProperties": 50,
-                    "maxProperties": 50,
+                    "minProperties": 90,
+                    "maxProperties": 90,
                     "patternProperties": {
-                        "^color_([1-9]|[1-4][0-9]|50)$": {
+                        "^color_([1-9]|[1-8][0-9]|90)$": {
                             "type": "string",
                             "$ref": "#/$defs/hexColor"
                         }
