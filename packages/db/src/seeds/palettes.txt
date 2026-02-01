@@ -1,0 +1,141 @@
+--- Mostrando 64 paletas encontradas ---
+┌─────────┬─────────────────────┐
+│ (index) │ Paleta              │
+├─────────┼─────────────────────┤
+│ 0       │ 'Undying'           │
+│ 1       │ 'Agony'             │
+│ 2       │ 'Hatred'            │
+│ 3       │ 'Fear'              │
+│ 4       │ 'Conquest'          │
+│ 5       │ 'Rot'               │
+│ 6       │ 'Darkness'          │
+│ 7       │ 'Accessibility'     │
+│ 8       │ 'Dex Color Picker'  │
+│ 9       │ 'Bastille'          │
+│ 10      │ 'Beach'             │
+│ 11      │ 'Cavia'             │
+│ 12      │ 'Corpus'            │
+│ 13      │ 'Daybreak'          │
+│ 14      │ 'Tenno'             │
+│ 15      │ 'Tenno II'          │
+│ 16      │ 'Tenno III'         │
+│ 17      │ 'Discord'           │
+│ 18      │ 'Dojo'              │
+│ 19      │ 'Easter'            │
+│ 20      │ 'Ember Heirloom'    │
+│ 21      │ 'Eximus'            │
+│ 22      │ 'Fire'              │
+│ 23      │ 'Gamma'             │
+│ 24      │ 'Grineer'           │
+│ 25      │ 'Halloween'         │
+│ 26      │ "Hallow's Eve"      │
+│ 27      │ 'Deca Heirloom'     │
+│ 28      │ 'Ice'               │
+│ 29      │ 'Infested'          │
+│ 30      │ 'Classic'           │
+│ 31      │ 'Classic Saturated' │
+│ 32      │ 'Storm'             │
+│ 33      │ 'Color Picker D'    │
+│ 34      │ 'Jade'              │
+│ 35      │ 'Light & Shadow'    │
+│ 36      │ 'Sanctum'           │
+│ 37      │ "Ki'Teer"           │
+│ 38      │ 'Void Trader'       │
+│ 39      │ 'Lotus'             │
+│ 40      │ 'Marshlands'        │
+│ 41      │ 'Narmer'            │
+│ 42      │ 'Orokin'            │
+│ 43      │ 'PSIV'              │
+│ 44      │ 'Pride'             │
+│ 45      │ 'Pride Celebration' │
+│ 46      │ 'Spektaka'          │
+│ 47      │ 'Prime Finish'      │
+│ 48      │ 'Prime Lacquer'     │
+│ 49      │ 'Red/white/blue'    │
+│ 50      │ 'Rhino Heirloom'    │
+│ 51      │ 'Rollers'           │
+│ 52      │ 'Shamrock'          │
+│ 53      │ 'Opal'              │
+│ 54      │ 'Matisse'           │
+│ 55      │ 'Transmission'      │
+│ 56      │ 'Twilight'          │
+│ 57      │ 'Eminence'          │
+│ 58      │ 'Twitch'            │
+│ 59      │ 'Potentia'          │
+│ 60      │ 'Valentine'         │
+│ 61      │ 'Cherub'            │
+│ 62      │ 'Valkyr Heirloom'   │
+│ 63      │ 'Smoke'             │
+└─────────┴─────────────────────┘
+
+
+
+--- Mostrando 64 paletas encontradas (Ordenadas) ---
+┌─────────┬─────────────────────┐
+│ (index) │ Paleta              │
+├─────────┼─────────────────────┤
+│ 0       │ 'Accessibility'     │
+│ 1       │ 'Agony'             │
+│ 2       │ 'Bastille'          │
+│ 3       │ 'Beach'             │
+│ 4       │ 'Cavia'             │
+│ 5       │ 'Cherub'            │
+│ 6       │ 'Classic'           │
+│ 7       │ 'Classic Saturated' │
+│ 8       │ 'Color Picker D'    │
+│ 9       │ 'Conquest'          │
+│ 10      │ 'Corpus'            │
+│ 11      │ 'Darkness'          │
+│ 12      │ 'Daybreak'          │
+│ 13      │ 'Deca Heirloom'     │
+│ 14      │ 'Dex Color Picker'  │
+│ 15      │ 'Discord'           │
+│ 16      │ 'Dojo'              │
+│ 17      │ 'Easter'            │
+│ 18      │ 'Ember Heirloom'    │
+│ 19      │ 'Eminence'          │
+│ 20      │ 'Eximus'            │
+│ 21      │ 'Fear'              │
+│ 22      │ 'Fire'              │
+│ 23      │ 'Gamma'             │
+│ 24      │ 'Grineer'           │
+│ 25      │ "Hallow's Eve"      │
+│ 26      │ 'Halloween'         │
+│ 27      │ 'Hatred'            │
+│ 28      │ 'Ice'               │
+│ 29      │ 'Infested'          │
+│ 30      │ 'Jade'              │
+│ 31      │ "Ki'Teer"           │
+│ 32      │ 'Light & Shadow'    │
+│ 33      │ 'Lotus'             │
+│ 34      │ 'Marshlands'        │
+│ 35      │ 'Matisse'           │
+│ 36      │ 'Narmer'            │
+│ 37      │ 'Opal'              │
+│ 38      │ 'Orokin'            │
+│ 39      │ 'Potentia'          │
+│ 40      │ 'Pride'             │
+│ 41      │ 'Pride Celebration' │
+│ 42      │ 'Prime Finish'      │
+│ 43      │ 'Prime Lacquer'     │
+│ 44      │ 'PSIV'              │
+│ 45      │ 'Red/white/blue'    │
+│ 46      │ 'Rhino Heirloom'    │
+│ 47      │ 'Rollers'           │
+│ 48      │ 'Rot'               │
+│ 49      │ 'Sanctum'           │
+│ 50      │ 'Shamrock'          │
+│ 51      │ 'Smoke'             │
+│ 52      │ 'Spektaka'          │
+│ 53      │ 'Storm'             │
+│ 54      │ 'Tenno'             │
+│ 55      │ 'Tenno II'          │
+│ 56      │ 'Tenno III'         │
+│ 57      │ 'Transmission'      │
+│ 58      │ 'Twilight'          │
+│ 59      │ 'Twitch'            │
+│ 60      │ 'Undying'           │
+│ 61      │ 'Valentine'         │
+│ 62      │ 'Valkyr Heirloom'   │
+│ 63      │ 'Void Trader'       │
+└─────────┴─────────────────────┘

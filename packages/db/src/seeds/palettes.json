@@ -1,6 +1,7 @@
 [
+  { "_comment": "--- First batch of palettes: 2026.01.31 ---" },
   {
-    "id": 1,
+    "id": 61,
     "name": "Undying",
     "colors": { 
       "color_1": "#598075", "color_2": "#598075", "color_3": "#5F8379", "color_4": "#688A80", "color_5": "#729088", 
@@ -24,7 +25,7 @@
     }
   },
   {
-    "id": 9001,
+    "id": 2,
     "name": "Agony",
     "colors": { 
       "color_1": "#676767", "color_2": "#6F6F6F", "color_3": "#797979", "color_4": "#818287", "color_5": "#898B93", 
@@ -49,7 +50,7 @@
     }
   },
   {
-    "id": 9002,
+    "id": 28,
     "name": "Hatred",
     "colors": { 
       "color_1": "#B09B8E", "color_2": "#B5A397", "color_3": "#B8A9A0", "color_4": "#BCB2A9", "color_5": "#BEB9AF", 
@@ -73,7 +74,7 @@
     }
   },
   {
-    "id": 9003,
+    "id": 22,
     "name": "Fear",
     "colors": { 
       "color_1": "#A3BBB8", "color_2": "#B6C7C6", "color_3": "#C7D3D2", "color_4": "#D2DADB", "color_5": "#D7DCDE", 
@@ -97,7 +98,7 @@
     }
   },
   {
-    "id": 9004,
+    "id": 10,
     "name": "Conquest",
     "colors": { 
       "color_1": "#BBDBCC", "color_2": "#AFD2C3", "color_3": "#A1C8B7", "color_4": "#8EBAA8", "color_5": "#7CAD99", 
@@ -121,7 +122,7 @@
     }
   },
   {
-    "id": 9005,
+    "id": 49,
     "name": "Rot",
     "colors": { 
       "color_1": "#BED1C1", "color_2": "#B7C7BA", "color_3": "#ADBBB3", "color_4": "#A3AEA9", "color_5": "#939D9C", 
@@ -145,7 +146,7 @@
     }
   },
   {
-    "id": 9006,
+    "id": 12,
     "name": "Darkness",
     "colors": { 
       "color_1": "#538BAC", "color_2": "#528AAB", "color_3": "#5288AA", "color_4": "#5187A9", "color_5": "#5185A7", 
@@ -169,7 +170,7 @@
     }
   },
   {
-    "id": 9007,
+    "id": 1,
     "name": "Accessibility",
     "colors": { 
       "color_1": "#FFFFFF", "color_2": "#D2D1D1", "color_3": "#9A9A9A", "color_4": "#9A9A9A", "color_5": "#7F7F7F", 
@@ -193,7 +194,7 @@
     }
   },
   {
-    "id": 9008,
+    "id": 15,
     "name": "Dex Color Picker",
     "colors": { 
       "color_1": "#191818", "color_2": "#1F1E1E", "color_3": "#242323", "color_4": "#292828", "color_5": "#2E2D2D", 
@@ -217,7 +218,7 @@
     }
   },
   {
-    "id": 9009,
+    "id": 3,
     "name": "Bastille",
     "colors": { 
       "color_1": "#D92E2F", "color_2": "#DF3330", "color_3": "#E43731", "color_4": "#E93C33", "color_5": "#EF4135", 
@@ -241,7 +242,7 @@
     }
   },
   {
-    "id": 9010,
+    "id": 4,
     "name": "Beach",
     "colors": { 
       "color_1": "#FFCE25", "color_2": "#FFCF28", "color_3": "#FECF2B", "color_4": "#FED02F", "color_5": "#FDD133", 
@@ -265,7 +266,7 @@
     }
   },
   {
-    "id": 9011,
+    "id": 5,
     "name": "Cavia",
     "colors": { 
       "color_1": "#4FF7FF", "color_2": "#45E0F4", "color_3": "#3BC9E9", "color_4": "#31B1DD", "color_5": "#279AD2", 
@@ -289,7 +290,7 @@
     }
   },
   {
-    "id": 9012,
+    "id": 11,
     "name": "Corpus",
     "colors": { 
       "color_1": "#E2F4F7", "color_2": "#B2D4E2", "color_3": "#75ADC8", "color_4": "#529ABF", "color_5": "#4093BF", 
@@ -313,7 +314,7 @@
     }
   },
   {
-    "id": 9013,
+    "id": 13,
     "name": "Daybreak",
     "colors": { 
       "color_1": "#A0C6E8", "color_2": "#9BB7D9", "color_3": "#95A4C8", "color_4": "#8E91B5", "color_5": "#887EA3", 
@@ -337,7 +338,7 @@
     }
   },
   {
-    "id": 9014,
+    "id": 55,
     "name": "Tenno",
     "colors": { 
       "color_1": "#DCCC9A", "color_2": "#83684F", "color_3": "#919A9C", "color_4": "#01B36C", "color_5": "#3F7BC1", 
@@ -361,7 +362,7 @@
     }
   },
   {
-    "id": 9015,
+    "id": 56,
     "name": "Tenno II",
     "colors": { 
       "color_1": "#94BCC1", "color_2": "#857572", "color_3": "#3F555D", "color_4": "#EDEABC", "color_5": "#00F3FF", 
@@ -385,7 +386,7 @@
     }
   },
   {
-    "id": 9016,
+    "id": 57,
     "name": "Tenno III",
     "colors": { 
       "color_1": "#C4BFAE", "color_2": "#303143", "color_3": "#6C2322", "color_4": "#6F6F6F", "color_5": "#E24644", 
@@ -409,7 +410,7 @@
     }
   },
   {
-    "id": 9017,
+    "id": 16,
     "name": "Discord",
     "colors": { 
       "color_1": "#7289DA", "color_2": "#6C82D0", "color_3": "#6579C1", "color_4": "#5C6EAF", "color_5": "#51639D", 
@@ -433,7 +434,7 @@
     }
   },
   {
-    "id": 9018,
+    "id": 17,
     "name": "Dojo",
     "colors": { 
       "color_1": "#63779C", "color_2": "#6A7FA7", "color_3": "#748CB7", "color_4": "#809AC9", "color_5": "#8CA8DC", 
@@ -457,7 +458,7 @@
     }
   },
   {
-    "id": 9019,
+    "id": 18,
     "name": "Easter",
     "colors": { 
       "color_1": "#CDA75E", "color_2": "#D0AF5F", "color_3": "#D1B35F", "color_4": "#DABB62", "color_5": "#DAC262", 
@@ -481,7 +482,7 @@
     }
   },
   {
-    "id": 9020,
+    "id": 19,
     "name": "Ember Heirloom",
     "colors": { 
       "color_1": "#D99646", "color_2": "#D9984A", "color_3": "#D99A4E", "color_4": "#D99C52", "color_5": "#D99E57", 
@@ -505,7 +506,7 @@
     }
   },
   {
-    "id": 9021,
+    "id": 21,
     "name": "Eximus",
     "colors": { 
       "color_1": "#697785", "color_2": "#5F6B79", "color_3": "#515C69", "color_4": "#434C57", "color_5": "#353D46", 
@@ -529,7 +530,7 @@
     }
   },
   {
-    "id": 9022,
+    "id": 23,
     "name": "Fire",
     "colors": {
       "color_1": "#FFDE93", "color_2": "#FFE3A4", "color_3": "#FFE9B6", "color_4": "#FFF0C4", "color_5": "#FFFCD1", 
@@ -553,7 +554,7 @@
     }
   },
   {
-    "id": 9023,
+    "id": 24,
     "name": "Gamma",
     "colors": {
       "color_1": "#3E1718", "color_2": "#5C2223", "color_3": "#843033", "color_4": "#A73D3F", "color_5": "#BB4549", 
@@ -577,7 +578,7 @@
     }
   },
   {
-    "id": 9024,
+    "id": 25,
     "name": "Grineer",
     "colors": {
       "color_1": "#FFA339", "color_2": "#FF982B", "color_3": "#FF8D1E", "color_4": "#FF8312", "color_5": "#FF7B08", 
@@ -601,7 +602,7 @@
     }
   },
   {
-    "id": 9025,
+    "id": 27,
     "name": "Halloween",
     "colors": {
       "color_1": "#DE0000", "color_2": "#C30000", "color_3": "#A70000", "color_4": "#8C0000", "color_5": "#760000", 
@@ -625,7 +626,7 @@
     }
   },
   {
-    "id": 9026,
+    "id": 26,
     "name": "Hallow's Eve",
     "colors": {
       "color_1": "#660066", "color_2": "#76105C", "color_3": "#8C274D", "color_4": "#A6413B", "color_5": "#C35D28", 
@@ -649,7 +650,7 @@
     }
   },
   {
-    "id": 9027,
+    "id": 14,
     "name": "Deca Heirloom",
     "colors": {
       "color_1": "#D68A6C", "color_2": "#DD997F", "color_3": "#E5A992", "color_4": "#EDBBA7", "color_5": "#F7CEBE", 
@@ -673,7 +674,7 @@
     }
   },
   {
-    "id": 9028,
+    "id": 29,
     "name": "Ice",
     "colors": {
       "color_1": "#78FFD4", "color_2": "#9BFFE1", "color_3": "#BBFFEB", "color_4": "#CEFFF9", "color_5": "#D5FDFF", 
@@ -697,7 +698,7 @@
     }
   },
   {
-    "id": 9029,
+    "id": 30,
     "name": "Infested",
     "colors": {
       "color_1": "#1F8E00", "color_2": "#1B8600", "color_3": "#168000", "color_4": "#137A00", "color_5": "#0F7500", 
@@ -721,7 +722,7 @@
     }
   },
   {
-    "id": 9030,
+    "id": 7,
     "name": "Classic",
     "colors": {
       "color_1": "#461011", "color_2": "#671718", "color_3": "#952024", "color_4": "#BB282B", "color_5": "#D12E33", 
@@ -745,7 +746,7 @@
     }
   },
   {
-    "id": 9031,
+    "id": 8,
     "name": "Classic Saturated",
     "colors": {
       "color_1": "#520406", "color_2": "#790507", "color_3": "#AF060B", "color_4": "#DC080D", "color_5": "#F60A11", 
@@ -769,7 +770,7 @@
     }
   },
   {
-    "id": 9032,
+    "id": 54,
     "name": "Storm",
     "colors": {
       "color_1": "#DF4019", "color_2": "#E45B39", "color_3": "#E56647", "color_4": "#F86F4D", "color_5": "#FF896A", 
@@ -793,7 +794,7 @@
     }
   },
   {
-    "id": 9033,
+    "id": 9,
     "name": "Color Picker D",
     "colors": {
       "color_1": "#DF4019", "color_2": "#E45B39", "color_3": "#E56647", "color_4": "#F86F4D", "color_5": "#FF896A", 
@@ -817,7 +818,7 @@
     }
   },
   {
-    "id": 9034,
+    "id": 31,
     "name": "Jade",
     "colors": {
       "color_1": "#FFFFFF", "color_2": "#FCFDFC", "color_3": "#F9FAF9", "color_4": "#F4F6F5", "color_5": "#EFF2F1", 
@@ -841,7 +842,7 @@
     }
   },
   {
-    "id": 9035,
+    "id": 33,
     "name": "Light & Shadow",
     "colors": {
       "color_1": "#3C3C3C", "color_2": "#424242", "color_3": "#474747", "color_4": "#4D4D4D", "color_5": "#525252", 
@@ -865,7 +866,7 @@
     }
   },
   {
-    "id": 9036,
+    "id": 50,
     "name": "Sanctum",
     "colors": {
       "color_1": "#A4BCBA", "color_2": "#A0B8B6", "color_3": "#9BB3B1", "color_4": "#97ADAC", "color_5": "#92A8A6", 
@@ -889,7 +890,7 @@
     }
   },
   {
-    "id": 9037,
+    "id": 32,
     "name": "Ki'Teer",
     "colors": {
       "color_1": "#90FFDC", "color_2": "#81FAD6", "color_3": "#6CF3CD", "color_4": "#53EBC2", "color_5": "#38E3B7", 
@@ -913,7 +914,7 @@
     }
   },
   {
-    "id": 9038,
+    "id": 64,
     "name": "Void Trader",
     "colors": {
       "color_1": "#00EEFF", "color_2": "#00D9E8", "color_3": "#00C3D1", "color_4": "#00AEBA", "color_5": "#0098A3", 
@@ -937,7 +938,7 @@
     }
   },
   {
-    "id": 9039,
+    "id": 34,
     "name": "Lotus",
     "colors": {
       "color_1": "#827DD3", "color_2": "#6B66C0", "color_3": "#504CAA", "color_4": "#363395", "color_5": "#1E1C82", 
@@ -961,7 +962,7 @@
     }
   },
   {
-    "id": 9040,
+    "id": 35,
     "name": "Marshlands",
     "colors": { 
       "color_1": "#776847", "color_2": "#7D6D51", "color_3": "#82735C", "color_4": "#877A65", "color_5": "#8A7B6B", 
@@ -985,7 +986,7 @@
     }
   },
   {
-    "id": 9041,
+    "id": 37,
     "name": "Narmer",
     "colors": { 
       "color_1": "#EDE4D1", "color_2": "#EDDDBB", "color_3": "#EDD5A6", "color_4": "#EDCE91", "color_5": "#EDC77B", 
@@ -1009,7 +1010,7 @@
     }
   },
   {
-    "id": 9042,
+    "id": 39,
     "name": "Orokin",
     "colors": { 
       "color_1": "#605D55", "color_2": "#6A675D", "color_3": "#76746A", "color_4": "#858376", "color_5": "#939283", 
@@ -1033,7 +1034,7 @@
     }
   },
   {
-    "id": 9043,
+    "id": 45,
     "name": "PSIV",
     "colors": { 
       "color_1": "#F8A6DA", "color_2": "#F492D0", "color_3": "#F27DC6", "color_4": "#EE69BC", "color_5": "#EB58B3", 
@@ -1057,7 +1058,7 @@
     }
   },
   {
-    "id": 9044,
+    "id": 41,
     "name": "Pride",
     "colors": { 
       "color_1": "#FE0000", "color_2": "#FF0C0C", "color_3": "#FF1C1C", "color_4": "#FF2A2A", "color_5": "#FF3A3A", 
@@ -1081,7 +1082,7 @@
     }
   },
   {
-    "id": 9045,
+    "id": 42,
     "name": "Pride Celebration",
     "colors": { 
       "color_1": "#C5C4C4", "color_2": "#D4D4D4", "color_3": "#E3E3E3", "color_4": "#F0F0EF", "color_5": "#FAF9F5", 
@@ -1105,7 +1106,7 @@
     }
   },
   {
-    "id": 9046,
+    "id": 53,
     "name": "Spektaka",
     "colors": { 
       "color_1": "#46A3C5", "color_2": "#70AA43", "color_3": "#F8981F", "color_4": "#DF4B99", "color_5": "#F3661F", 
@@ -1129,7 +1130,7 @@
     }
   },
   {
-    "id": 9047,
+    "id": 43,
     "name": "Prime Finish",
     "colors": { 
       "color_1": "#1E1E1E", "color_2": "#8A7D5A", "color_3": "#5D573C", "color_4": "#ECC45A", "color_5": "#01FFFF", 
@@ -1153,7 +1154,7 @@
     }
   },
   {
-    "id": 9048,
+    "id": 44,
     "name": "Prime Lacquer",
     "colors": { 
       "color_1": "#0D0D0D", "color_2": "#413E47", "color_3": "#2C233B", "color_4": "#ECC45A", "color_5": "#6C0931", 
@@ -1177,7 +1178,7 @@
     }
   },
   {
-    "id": 9049,
+    "id": 46,
     "name": "Red/white/blue",
     "colors": { 
       "color_1": "#E11115", "color_2": "#FEFFFF", "color_3": "#E11115", "color_4": "#FFFFFF", "color_5": "#E11115", 
@@ -1201,7 +1202,7 @@
     }
   },
   {
-    "id": 9050,
+    "id": 46,
     "name": "Rhino Heirloom",
     "colors": { 
       "color_1": "#CD9A1F", "color_2": "#CC9923", "color_3": "#CC9A27", "color_4": "#CC9C2B", "color_5": "#CC9D2F", 
@@ -1225,7 +1226,7 @@
     }
   },
   {
-    "id": 9051,
+    "id": 47,
     "name": "Rollers",
     "colors": { 
       "color_1": "#F6A2B0", "color_2": "#E597A3", "color_3": "#CC8692", "color_4": "#AF737D", "color_5": "#96626B", 
@@ -1249,7 +1250,7 @@
     }
   },
   {
-    "id": 9052,
+    "id": 51,
     "name": "Shamrock",
     "colors": { 
       "color_1": "#FFD393", "color_2": "#FEC673", "color_3": "#FEB851", "color_4": "#FEAB31", "color_5": "#FDA015", 
@@ -1273,7 +1274,7 @@
     }
   },
   {
-    "id": 9053,
+    "id": 38,
     "name": "Opal",
     "colors": { 
       "color_1": "#FF3C28", "color_2": "#F23926", "color_3": "#DF3523", "color_4": "#C83020", "color_5": "#B12A1D", 
@@ -1297,7 +1298,7 @@
     }
   },
   {
-    "id": 9054,
+    "id": 26,
     "name": "Matisse",
     "colors": { 
       "color_1": "#E20074", "color_2": "#DE0474", "color_3": "#DF0876", "color_4": "#DF0D78", "color_5": "#DF137C", 
@@ -1321,7 +1322,7 @@
     }
   },
   {
-    "id": 9055,
+    "id": 58,
     "name": "Transmission",
     "colors": { 
       "color_1": "#00285F", "color_2": "#002C63", "color_3": "#003169", "color_4": "#00376F", "color_5": "#003E75", 
@@ -1345,7 +1346,7 @@
     }
   },
   {
-    "id": 9056,
+    "id": 59,
     "name": "Twilight",
     "colors": { 
       "color_1": "#784712", "color_2": "#683B13", "color_3": "#562F13", "color_4": "#462314", "color_5": "#3B1B14", 
@@ -1369,7 +1370,7 @@
     }
   },
   {
-    "id": 9057,
+    "id": 20,
     "name": "Eminence",
     "colors": { 
       "color_1": "#E6B0FE", "color_2": "#B7A1F6", "color_3": "#858BE9", "color_4": "#4C6CD3", "color_5": "#234DB9", 
@@ -1393,7 +1394,7 @@
     }
   },
   {
-    "id": 9058,
+    "id": 60,
     "name": "Twitch",
     "colors": { 
       "color_1": "#F7F6FB", "color_2": "#F9F8FC", "color_3": "#FAFAFD", "color_4": "#FCFCFD", "color_5": "#FEFEFE", 
@@ -1417,7 +1418,7 @@
     }
   },
   {
-    "id": 9059,
+    "id": 40,
     "name": "Potentia",
     "colors": { 
       "color_1": "#23586D", "color_2": "#276279", "color_3": "#29687F", "color_4": "#2C6E86", "color_5": "#2E738D", 
@@ -1441,7 +1442,7 @@
     }
   },
   {
-    "id": 9060,
+    "id": 62,
     "name": "Valentine",
     "colors": { 
       "color_1": "#760303", "color_2": "#8B1717", "color_3": "#A22A2A", "color_4": "#B03B3B", "color_5": "#CA4545", 
@@ -1465,7 +1466,7 @@
     }
   },
   {
-    "id": 9061,
+    "id": 6,
     "name": "Cherub",
     "colors": { 
       "color_1": "#B40800", "color_2": "#DC362D", "color_3": "#C21912", "color_4": "#A10800", "color_5": "#8F0700", 
@@ -1489,7 +1490,7 @@
     }
   },
   {
-    "id": 9062,
+    "id": 63,
     "name": "Valkyr Heirloom",
     "colors": { 
       "color_1": "#D53F94", "color_2": "#D64597", "color_3": "#D64999", "color_4": "#D64D9B", "color_5": "#D6519D", 
@@ -1513,7 +1514,7 @@
     }
   },
   {
-    "id": 9063,
+    "id": 52,
     "name": "Smoke",
     "colors": { 
       "color_1": "#DDDEDE", "color_2": "#E0E2E2", "color_3": "#E4E5E5", "color_4": "#EFF0F0", "color_5": "#F9F9F9", 
