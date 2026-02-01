@@ -6,10 +6,14 @@
     "baseUrl": ".",
     "types": [
         "node"
-    ]
+    ],
+    "paths": {
+      "@schemas/*": [ "/src/schemas/*" ]
+    }
   },
   "include": [
     "src",
     "drizzle.config.ts"
-  ]
+  ],
+  
 }

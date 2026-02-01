@@ -22,6 +22,13 @@
       "when": 1769839312787,
       "tag": "0002_huge_justice",
       "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1769902329273,
+      "tag": "0003_amusing_the_stranger",
+      "breakpoints": true
     }
   ]
 }

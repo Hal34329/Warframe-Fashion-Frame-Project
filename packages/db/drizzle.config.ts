@@ -11,7 +11,12 @@ process.loadEnvFile("../../.env");
 
 export default defineConfig({
     out: "./drizzle",
-    schema: "./src/schemas/index.ts",
+    schema: [
+        "./src/schemas/warframesSchema.ts",
+        "./src/schemas/palettesSchema.ts",
+        "./src/schemas/attachmentsSchema.ts",
+    ],
+    // schema: "./src/schemas/index.ts",
     dialect: "postgresql",
     dbCredentials: {
         url: process.env.DATABASE_URL!,
