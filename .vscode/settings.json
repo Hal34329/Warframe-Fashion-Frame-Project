@@ -15,6 +15,14 @@
         {
             "fileMatch": [ "**/seeds/syandanas.json" ],
             "url": "./packages/db/src/schemas/syandanasJsonSchema.json"
+        },
+        {
+            "fileMatch": [ "**/seeds/helmets.json" ],
+            "url": "./packages/db/src/schemas/helmetsJsonSchema.json"
+        },
+        {
+            "fileMatch": [ "**/seeds/skins.json" ],
+            "url": "./packages/db/src/schemas/skinsJsonSchema.json"
         }
     ],
     // "files.exclude": {

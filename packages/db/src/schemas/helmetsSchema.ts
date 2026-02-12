@@ -1,10 +1,10 @@
 import { pgTable, integer, varchar } from "drizzle-orm/pg-core";
 import { warframes } from "./warframesSchema.js";
 
-export const skins = pgTable("skins", {
+export const helmets = pgTable("helmets", {
     id: integer("id").primaryKey(),
     name: varchar("name", { length: 50 }).notNull().unique(),
     warframeName: integer("warframe_id")
         .notNull()
-        .references(() => warframes.name, { onDelete: "cascade", onUpdate: "cascade" } ),
+        .references(() => warframes.id, { onDelete: "cascade", onUpdate: "cascade" } ),
 });

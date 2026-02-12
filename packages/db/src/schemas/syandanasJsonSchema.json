@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "title": "Attachments Schema",
+    "title": "Syandanas Schema",
     "type": "array",
     "uniqueItems": true,
     "items": {
@@ -17,30 +17,18 @@
         "commentObject": {
             "type": "object",
             "properties": {
-                "_comment": {
-                    "type": "string"
-                }
+                "_comment": { "type": "string" }
             },
-            "required": [
-                "_comment"
-            ],
+            "required": [ "_comment" ],
             "additionalProperties": false
         },
         "attachmentObject": {
             "type": "object",
             "properties": {
-                "id": {
-                    "type": "integer",
-                    "minimum": 1
-                },
-                "name": {
-                    "type": "string"
-                }
+                "id": { "type": "integer", "minimum": 1 },
+                "name": { "type": "string" }
             },
-            "required": [
-                "id",
-                "name"
-            ],
+            "required": [ "id", "name" ],
             "additionalProperties": false
         }
     }
