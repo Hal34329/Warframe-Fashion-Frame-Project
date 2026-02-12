@@ -5,12 +5,8 @@
     "uniqueItems": true,
     "items": {
         "oneOf": [
-            {
-                "$ref": "#/$defs/commentObject"
-            },
-            {
-                "$ref": "#/$defs/attachmentObject"
-            }
+            { "$ref": "#/$defs/commentObject" },
+            { "$ref": "#/$defs/attachmentObject" }
         ]
     },
     "$defs": {
