@@ -598,5 +598,7 @@
     { "id": 2133, "name": "Zato Shoulder Plate (Left)", "slot": "left_arm" }, 
     { "id": 3133, "name": "Zato Shoulder Plate (Right)", "slot": "right_arm" },
     { "id": 2134, "name": "Zhivira Shoulder Armor (Left)", "slot": "left_arm" }, 
-    { "id": 3134, "name": "Zhivira Shoulder Armor (Right)", "slot": "right_arm" }
+    { "id": 3134, "name": "Zhivira Shoulder Armor (Right)", "slot": "right_arm" },
+    { "_comment": "--- Second Batch ---"},
+    { "id": 6000, "name": "Khora's Spikes", "slot": "auxiliary"}
 ]
