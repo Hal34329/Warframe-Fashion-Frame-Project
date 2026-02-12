@@ -14,10 +14,6 @@
         ]
     },
     "$defs": {
-        "hexColor": {
-            "type": "string",
-            "pattern": "^#[a-fA-F0-9]{6}$"
-        },
         "commentObject": {
             "type": "object",
             "properties": {

@@ -1,0 +1,47 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Attachments Schema",
+    "type": "array",
+    "uniqueItems": true,
+    "items": {
+        "oneOf": [
+            {
+                "$ref": "#/$defs/commentObject"
+            },
+            {
+                "$ref": "#/$defs/attachmentObject"
+            }
+        ]
+    },
+    "$defs": {
+        "commentObject": {
+            "type": "object",
+            "properties": {
+                "_comment": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "_comment"
+            ],
+            "additionalProperties": false
+        },
+        "attachmentObject": {
+            "type": "object",
+            "properties": {
+                "id": {
+                    "type": "integer",
+                    "minimum": 1
+                },
+                "name": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "id",
+                "name"
+            ],
+            "additionalProperties": false
+        }
+    }
+}
