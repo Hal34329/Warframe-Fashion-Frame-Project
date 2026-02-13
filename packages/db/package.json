@@ -8,8 +8,8 @@
     "./schema": "./src/schema.ts"
   },
   "scripts": {
-    "generate": "drizzle-kit generate",
-    "migrate": "drizzle-kit migrate",
+    "generate": "tsx node_modules/drizzle-kit/bin.cjs generate",
+    "migrate": "tsx node_modules/drizzle-kit/bin.cjs migrate",
     "seed": "tsx src/seed.ts"
   },
   "dependencies": {

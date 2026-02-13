@@ -18,7 +18,6 @@ export default defineConfig({
         "./src/schemas/skinsSchema.ts",
         "./src/schemas/syandanasSchema.ts",
         "./src/schemas/warframesSchema.ts",
-
     ],
     // schema: "./src/schemas/index.ts",
     dialect: "postgresql",
