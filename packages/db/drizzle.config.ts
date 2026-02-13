@@ -12,9 +12,13 @@ process.loadEnvFile("../../.env");
 export default defineConfig({
     out: "./drizzle",
     schema: [
-        "./src/schemas/warframesSchema.ts",
-        "./src/schemas/palettesSchema.ts",
         "./src/schemas/attachmentsSchema.ts",
+        "./src/schemas/helmetsSchema.ts",
+        "./src/schemas/palettesSchema.ts",
+        "./src/schemas/skinsSchema.ts",
+        "./src/schemas/syandanasSchema.ts",
+        "./src/schemas/warframesSchema.ts",
+
     ],
     // schema: "./src/schemas/index.ts",
     dialect: "postgresql",

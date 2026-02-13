@@ -22,9 +22,9 @@
         "properties": {
             "id": { "type": "integer", "minimum": 1 },
             "name": { "type": "string" },
-            "warframeId": { "type": "integer" }
+            "warframe_id": { "type": "integer" }
         },
-        "required": [ "id", "name", "warframeId" ],
+        "required": [ "id", "name", "warframe_id" ],
         "additionalProperties": false
         }
     }
